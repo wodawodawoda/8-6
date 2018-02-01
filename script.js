@@ -2,8 +2,9 @@ var a = 3
 	b = 4
 	value = (a * a) - (2 * a * b) - (b * b);
 
-console.log(c);
+console.log(value);
 
+//Classic if else
 if (value < 0) {
 	console.log('wynik ujemny')
 } else if (value > 0) {
@@ -12,4 +13,16 @@ if (value < 0) {
 	console.log('wynik równy 0')
 };
 
+var checkNumber = < 0 ? 'wynik ujemny' : value > 0 ? 'wynik dodatni' : 'wynik równy zero');
+console.log(checkNumber);
+
+//Shorthand if else statement
 value < 0 ? console.log('wynik ujemny') : value > 0 ? console.log('wynik dodatni') : console.log('wynik równy zero');
+
+
+
+
+
+//ES6
+//console.log(Math.sign(value))
+
