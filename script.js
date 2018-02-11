@@ -1,5 +1,5 @@
-var a = 10;
-	b = 5;
+var a = 10,
+	b = 5,
 	value = (a * a) - (2 * a * b) - (b * b);
 
 console.log(value);
@@ -24,6 +24,3 @@ console.log(shortHand);
 
 //ES6
 Math.sign(value);
-
-
-
